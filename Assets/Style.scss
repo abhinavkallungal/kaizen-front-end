@@ -1,0 +1,443 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+.yellobtn {
+    background-color: #fdc66f;
+    color: #1c1d1c;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    &:hover {
+        text-decoration: none;
+        box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.225);
+    }
+}
+.whitebtn {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+.yelloborderbtn {
+    background-color: transparent;
+    color: #fdc66f;
+    border: 2px solid #fdc66f;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+.blackbtn {
+    background-color: transparent;
+    color: #1c1d1c;
+    border: 2px solid #1c1d1c;
+    padding: 10px;
+    margin: 10px;
+    font-weight: fbold;
+    align-items: center;
+}
+.theme-input{
+    background-color: #F4F4F4;
+    padding: 20px 20px;
+    max-width: 320px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    i{
+        color: #fdc66f;
+        margin-right: 10px;
+    }
+    input{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        width: 100%;
+    }
+}
+.img {
+    width: 100%;
+    height: auto;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.header {
+    background-color: #1c1d1c;
+    .navbar {
+        background-color: #1c1d1c;
+
+        .navbar-brand {
+            font-weight: 500;
+        }
+        .loginbtn {
+            color: #fdc66f;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    }
+    .hero {
+        min-height: 60vh;
+        .img {
+            width: 100%;
+            height: auto;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        h1 {
+            font-size: 50px;
+            font-weight: bold;
+            color: #fff;
+            span {
+                color: #fdc66f;
+            }
+        }
+        span {
+            color: #fff;
+        }
+        .card {
+            span {
+                font-size: 16px;
+                color: #1c1d1c;
+            }
+            .img {
+                width: 100%;
+                height: 100%;
+                padding: 10px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+.service {
+    background-color: #eee;
+    padding-top: 30px;
+    h4 {
+        text-align: center;
+        font-weight: bold;
+    }
+    .card {
+        border: 2px solid #fdc66f;
+        h5 {
+            font-weight: bold;
+        }
+
+        .price {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            font-size: 22px;
+            p {
+                font-weight: bold;
+                color: #878787;
+            }
+            span {
+                font-weight: bold;
+                color: #fdc66f;
+            }
+        }
+    }
+}
+
+.about {
+    background-color: #1c1d1c;
+
+    .img {
+        width: 100%;
+        height: auto;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    h3 {
+        color: #fdc66f;
+        font-weight: bold;
+    }
+    span {
+        color: #ffffff;
+        font-weight: bold;
+    }
+}
+.getAQuote {
+    /* The image used */
+    background-image: url("./gal12.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .yellobtn {
+        height: auto;
+        max-width: 150px;
+    }
+    h2 {
+        color: #fff;
+        font-weight: bold;
+    }
+}
+.Blogref {
+
+    background-color: #1c1d1c;
+    padding: 30px 0px;
+    .head {
+        color: #fff;
+        text-align: center;
+        h1 {
+            font-weight: bold;
+        }
+    }
+    .blogs{
+        .img{
+            width: 100%;
+            max-height: 150px;
+            object-fit: cover;
+            margin-bottom: 10px;
+
+            img{
+                width: 100%;
+                max-height: 150px;
+
+
+            }
+        }
+        .tag{
+            color: #001273;
+            background-color: #DFE6F5;
+            padding: 5px;
+            font-size: 12px;
+            border-radius: 2px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .time{
+            color: #767676;
+            font-weight: bold;
+        }
+        h5{
+            color: #fff;
+            margin-top: 10px;
+
+
+        }
+        h6{
+            color: #fff;
+            font-weight: lighter;
+        }
+    }
+}
+
+.OurClients{
+    padding: 40px 0px;
+    background-color: #eee;
+    h2{
+        text-align:center;
+        padding: 20px;
+      }
+      /* Slider */
+      
+      .slick-slide {
+          margin: 0px 20px;
+          max-width: 150px;
+          max-height: 150px;
+      }
+      
+      .slick-slide img {
+          width: 100%;
+          height: 100%;
+         
+          
+      }
+      
+      .slick-slider
+      {
+          position: relative;
+          display: block;
+          box-sizing: border-box;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+                  user-select: none;
+          -webkit-touch-callout: none;
+          -khtml-user-select: none;
+          -ms-touch-action: pan-y;
+              touch-action: pan-y;
+          -webkit-tap-highlight-color: transparent;
+      }
+      
+      .slick-list
+      {
+          position: relative;
+          display: block;
+          overflow: hidden;
+          margin: 0;
+          padding: 0;
+      }
+      .slick-list:focus
+      {
+          outline: none;
+      }
+      .slick-list.dragging
+      {
+          cursor: pointer;
+          cursor: hand;
+      }
+      
+      .slick-slider .slick-track,
+      .slick-slider .slick-list
+      {
+          -webkit-transform: translate3d(0, 0, 0);
+             -moz-transform: translate3d(0, 0, 0);
+              -ms-transform: translate3d(0, 0, 0);
+               -o-transform: translate3d(0, 0, 0);
+                  transform: translate3d(0, 0, 0);
+      }
+      
+      .slick-track
+      {
+          position: relative;
+          top: 0;
+          left: 0;
+          display: block;
+      }
+      .slick-track:before,
+      .slick-track:after
+      {
+          display: table;
+          content: '';
+      }
+      .slick-track:after
+      {
+          clear: both;
+      }
+      .slick-loading .slick-track
+      {
+          visibility: hidden;
+      }
+      
+      .slick-slide
+      {
+          display: none;
+          float: left;
+          height: 100%;
+          min-height: 1px;
+      }
+      [dir='rtl'] .slick-slide
+      {
+          float: right;
+      }
+      .slick-slide img
+      {
+          display: block;
+      }
+      .slick-slide.slick-loading img
+      {
+          display: none;
+      }
+      .slick-slide.dragging img
+      {
+          pointer-events: none;
+      }
+      .slick-initialized .slick-slide
+      {
+          display: block;
+      }
+      .slick-loading .slick-slide
+      {
+          visibility: hidden;
+      }
+      .slick-vertical .slick-slide
+      {
+          display: block;
+          height: auto;
+          border: 1px solid transparent;
+      }
+      .slick-arrow.slick-hidden {
+          display: none;
+      }
+}
+
+.footer{
+    background-color: #1c1d1c;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .card .serviceCard {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        .hero {
+            h1 {
+                font-size: 35px;
+            }
+        }
+    }
+    .card .serviceCard {
+        flex-direction: row;
+    }
+}
+
+//login page
+
+.loginpage,.signuppage{
+    width:100%;
+    min-height: 90vh;
+    .card{
+        .left{
+            text-align: center;
+            padding: 50px;
+            background-color: #fdc66f;
+            h2,span{
+                color: #fff;
+                margin-top: 20px;
+
+            }
+        }
+        .right{
+            span{
+
+                a{
+                    text-decoration: none;
+                    color: #fdc66f;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+}
+
